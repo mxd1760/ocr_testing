@@ -1,0 +1,3 @@
+[env]
+LEPTONICA_LINK_PATHS = "../vcpkg_installed/x64-windows-static/lib"
+LEPTONICA_LINK_LIBS = "leptonica-1.85.0"

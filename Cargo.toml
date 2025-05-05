@@ -2,7 +2,17 @@
 name = "test_leptonica"
 version = "0.1.0"
 edition = "2021"
-
+build = "build.rs"
 
 [dependencies]
-leptonica-sys = "0.4"
+opencv = {git="https://github.com/mxd1760/opencv-rust",default-features=false,features=["imgcodecs","imgproc","highgui","photo","ximgproc","text"]}
+tesseract = "0.15.2"
+
+
+
+
+
+
+
+
+

@@ -2,10 +2,11 @@
   "name":"test-leptonica",
   "version-string":"0.1.0",
   "dependencies":[
-    "leptonica"
+    {
+      "name":"opencv4",
+      "features":["contrib","nonfree"]
+    },
+    "tesseract"
   ],
-  "builtin-baseline":"41c447cc210dc39aa85d4a5f58b4a1b9e573b3dc",
-  "overrides":[
-    {"name":"leptonica","version":"1.85.0"}
-  ]
+  "builtin-baseline":"41c447cc210dc39aa85d4a5f58b4a1b9e573b3dc"
 }

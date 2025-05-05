@@ -1,3 +1,13 @@
+
 [env]
-LEPTONICA_LINK_PATHS = "../vcpkg_installed/x64-windows-static/lib"
-LEPTONICA_LINK_LIBS = "leptonica-1.85.0"
+OPENCV_INCLUDE_PATHS={value="./vcpkg_installed/x64-windows/include/opencv4",relative=true}
+OPENCV_LINK_PATHS={value="./vcpkg_installed/x64-windows/lib",relative=true}
+OPENCV_LINK_LIBS="opencv_core4,opencv_imgcodecs4,opencv_imgproc4,opencv_highgui4,opencv_videoio4"
+
+LEPTONICA_INCLUDE_PATH={value="./vcpkg_installed/x64-windows/include",relative=true}
+LEPTONICA_LINK_PATHS={value="./vcpkg_installed/x64-windows/lib",relative=true}
+LEPTONICA_LINK_LIBS="leptonica-1.85.0"
+
+TESSERACT_INCLUDE_PATHS={value="./vcpkg_installed/x64-windows/include",relative=true}
+TESSERACT_LINK_PATHS={value="./vcpkg_installed/x64-windows/lib",relative=true}
+TESSERACT_LINK_LIBS="tesseract55"
